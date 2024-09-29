@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select File</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- single file  -->
+    <div class="file-uploader-section">
+        <input type="file" id="file-uploader" class="hide" onchange="SelectFile()"/>
+        <label for="file-uploader" class="btn-file">Select File</label>
+        <label id="selected-file-name" class="lbl">No File Selected</label>
+        <button class="reset" onclick="ResetSelectFile()">Reset</button>
+    </div>
+
+    <!-- multiple files  -->
+    <div class="file-uploader-section">
+        <input type="file" id="multiple-file-uploader" class="hide" multiple onchange="SelectFiles()"/>
+        <label for="multiple-file-uploader" class="btn-file">Select File</label>
+        <label id="selected-file-names" class="lbl">No File Selected</label>
+        <button class="reset" onclick="ResetSelectFiles()">Reset</button>
+    </div>
+    
+</body>
+<script src="script.js"></script> 
+</html>

@@ -1,0 +1,45 @@
+.file-uploader-section {
+    background-color: azure;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+input.hide {
+    display: none;
+}
+
+label.btn-file {
+    background-color: #0066b5;
+    color: white;
+    cursor: pointer;
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+label.btn-file:hover {
+    background-color: #003660;
+    transition: 0.3s;
+}
+
+label.lbl {
+    color: black;
+    padding: 10px 12px 10px 12px;
+    font-size: larger;
+}
+
+button.reset {
+    border: none;
+    background-color: #aa0039;
+    color: white;
+    cursor: pointer;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+button.reset:hover {
+    background-color: #5d001f;
+    transition: 0.3s;
+}
